@@ -1,0 +1,12 @@
+# Site settings
+title: Otávio R. Machado
+email: omachado@thoughtworks.com
+description: > # this means to ignore newlines until "baseurl:"
+  A personal space for insights, technical overviews, political&personal stands, the constant search for the meaning of 42, life, the universe and everything else.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://otaviormachado.github.io" # the base hostname & protocol for your site
+twitter_username: tavinzi
+github_username: otaviormachado
+
+# Build settings
+markdown: kramdown

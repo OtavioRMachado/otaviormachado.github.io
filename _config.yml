@@ -1,12 +1,42 @@
 # Site settings
-title: Otávio R. Machado
-email: omachado@thoughtworks.com
-description: > # this means to ignore newlines until "baseurl:"
-  A personal space for insights, technical overviews, political&personal stands, the constant search for the meaning of 42, life, the universe and everything else.
+description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://otaviormachado.github.io" # the base hostname & protocol for your site
-twitter_username: tavinzi
-github_username: otaviormachado
+url: "http://localhost:4000" # the base hostname & protocol for your site 
+
+# User settings
+username: Code Bucket
+user_description: Full-time learner who loves development and fights for the LGBTQI cause. Works at ThoughtWorks, where he can do all of that and much more.
+user_title: Otávio Machado
+email: omachado@thoughtworks.com
+twitter_username: _otaviomachado
+github_username:  otaviormachado
+gplus_username: otaviomachado
+disqus_username: otaviormachado
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

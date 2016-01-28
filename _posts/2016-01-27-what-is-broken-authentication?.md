@@ -33,7 +33,7 @@ Or when you don't set your application's timeouts are not set properly and one o
 
 Or even if an external attacker gains access to the system's password database and user passwords are not properly hashed, the attacker will be able to see all users' passwords;
 
-If any of those scenarios define **Broken Authentication/Session Management flaws** in your application.
+ All of those scenarios define **Broken Authentication/Session Management flaws** in your application.
 
 ### What can be the impacts of Broken Authentication/Session Management flaws?
 Flaws like this one may allow some, or even **all** accounts to be attacked. Once successful, the attacker can do anything the victim could do. Privileged accounts are frequently targeted.

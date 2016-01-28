@@ -9,7 +9,7 @@ tags:
 - Security
 categories: 
 - OWASP Top10
-twitter_text:
+twitter_text: What is an SQL Injection and why should I care? - On Code Bucket
 ---
 
 This post is part of a compilation talking about the ten most common security flaws for web applications. To see them all, [click here](/tags/#OWASP).
@@ -18,6 +18,7 @@ This post is part of a compilation talking about the ten most common security fl
 
 ### What is an injection attack?  
 [OWASP](https://www.owasp.org) defines the SQL Injection flaws as
+
 > Injection flaws, such as SQL, OS, and LDAP injection occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization.
 
 So, if your application uses untrusted data in the construction of SQL calls, like

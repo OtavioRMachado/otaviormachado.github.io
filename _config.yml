@@ -1,13 +1,13 @@
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://otaviormachado.github.io" # the base hostname & protocol for your site 
+url: "http://otaviormachado.github.io" # the base hostname & protocol for your site
 
 # User settings
 username: Code Bucket
-user_description: Full-time learner who loves development and fights for the LGBTQI cause. Works at ThoughtWorks, where he can do all of that and much more.
+user_description: Eternal learner, Software Developer, Team Enabler and occasional Pokémon Master. I play with words and with code — and I want to make the world a better place.
 user_title: Otávio Machado
-email: omachado@thoughtworks.com
+email: otaviormachado@gmail.com
 twitter_username: _otaviomachado
 github_username:  otaviormachado
 gplus_username: otaviomachado

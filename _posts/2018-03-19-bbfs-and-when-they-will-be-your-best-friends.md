@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BFFs and when they will be your best friends."
-date: 2015-09-19 02:16:56
+date: 2018-03-19 22:57:40
 image: '/assets/img/'
 description:
 tags:
@@ -63,11 +63,10 @@ This means that there are different data that have to be loaded for each differe
 The BFF comes as an alternative for this problem. I am not saying that you cannot have a big back-end that gives all different kinds of front-ends their data, but if you do have that, you may run into some problems, like **multiple teams messing with the same code base**, **specific business logic crammed together in a blob of awful code** or **performance issues**.
 
 You should not need to load the market store for the web client. You should not have to find advertisements for the iPhone app if you are not showing them. And most of all, different teams should not be messing with the same back-end if you don't want to end up with spaghetti code.
-<center>
+
 ![The saviour](http://philcalcado.com/img/2015-09-back-end-for-front-end-pattern/sc-bff-2.png)
 
 _Example of a BFF architecture_ ([thanks, Phil](http://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html))
-</center>
 
 This way, you can focus on getting only the right data, formatting the data exactly the way you are going to need it in the front end, and give your team all the freedom they want and need to develop things without needing to integrate with others, align backlogs and all that.
 

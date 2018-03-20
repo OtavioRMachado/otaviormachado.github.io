@@ -66,7 +66,7 @@ You should not need to load the market store for the web client. You should not 
 
 ![The saviour](http://philcalcado.com/img/2015-09-back-end-for-front-end-pattern/sc-bff-2.png)
 
-_Example of a BFF architecture_ ([thanks, Phil](http://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html))
+<center>_Example of a BFF architecture_ ([thanks, Phil](http://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html))</center>
 
 This way, you can focus on getting only the right data, formatting the data exactly the way you are going to need it in the front end, and give your team all the freedom they want and need to develop things without needing to integrate with others, align backlogs and all that.
 
